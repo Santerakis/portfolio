@@ -5,7 +5,7 @@
     padding-bottom: 20px;
 }
 .skillsContainer {
-    align-items: center;
+    /*align-items: center;*/
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -23,7 +23,7 @@
     gap: 10px;
 }
 
-@media (max-width: 624px) {
+@media (max-width: 652px) {
     .skills {
         justify-content: center;
     }

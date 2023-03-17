@@ -1,9 +1,16 @@
 .project {
     width: 250px;
-    height: 100px;
     background-color: lime;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.projImg {
+    height: 150px;
+    width: 100%;
+    background-color: crimson;
+}
+.buttonLook {
+    margin-top: 50%;;
 }
