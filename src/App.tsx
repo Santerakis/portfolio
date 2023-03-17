@@ -5,7 +5,8 @@ import {Header} from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
-import Remote from "./remote/Remote";  //export
+import Remote from "./remote/Remote";
+import Contacts from "./contacts/Contacts";  //export
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Skills/>
             <Projects/>
             <Remote/>
+            <Contacts/>
         </div>
     );
 }
