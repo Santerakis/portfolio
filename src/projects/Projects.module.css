@@ -33,11 +33,6 @@
     }
 }
 
-
-.container {
-
-}
-
 @media (max-width: 840px) {
     .container {
         justify-content: center;

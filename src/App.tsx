@@ -4,7 +4,8 @@ import {Header} from "./header/Header";
 // import Header from "./header/Header"; //export default
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
-import Projects from "./projects/Projects";  //export
+import Projects from "./projects/Projects";
+import Remote from "./remote/Remote";  //export
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Main/>
             <Skills/>
             <Projects/>
+            <Remote/>
         </div>
     );
 }
