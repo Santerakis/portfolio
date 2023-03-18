@@ -4,10 +4,10 @@ import styles from './Nav.module.css'
 const Nav = () => {
     return (
         <div className={styles.nav}>
-            <a href=''>Main</a>
-            <a href=''>Skills</a>
-            <a href=''>Projects</a>
-            <a href=''>Contacts</a>
+            <a className={styles.button} href=''>Main</a>
+            <a className={styles.button} href='#'>Skills</a>
+            <a className={styles.button} href='##'>Projects</a>
+            <a className={styles.button} href='#!'>Contacts</a>
         </div>
     );
 };

@@ -11,13 +11,13 @@
     align-items: center;
 }
 .icons {
-    width: 80%;
+    width: 280px;
     border: 1px solid;
     display: flex;
     justify-content: space-between;
 }
 .icon {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     background-color: brown;
 }

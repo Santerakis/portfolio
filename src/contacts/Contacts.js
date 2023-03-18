@@ -5,17 +5,11 @@ const Contacts = () => {
     return (
         <div className={styles.contactsBlock}>
             <div className={styles.contactsContainer}>
-                <h2>Contacts</h2>
+                <h2 className={styles.title}>Contacts</h2>
                 <form className={styles.form}>
-                    <div>
                         <input type="text"/>
-                    </div>
-                    <div>
                         <input type="text"/>
-                    </div>
-                    <div>
                         <textarea></textarea>
-                    </div>
                 </form>
                 <button>Send</button>
             </div>
