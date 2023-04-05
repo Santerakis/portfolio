@@ -7,11 +7,12 @@ const Contacts = () => {
             <div className={styles.contactsContainer}>
                 <h2 className={styles.title}>Contacts</h2>
                 <form className={styles.form}>
-                        <input type="text"/>
-                        <input type="text"/>
-                        <textarea></textarea>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <textarea></textarea>
+                    <button className={styles.submitBtn} type="submit">Send</button>
                 </form>
-                <button>Send</button>
+
             </div>
 
         </div>

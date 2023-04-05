@@ -5,7 +5,7 @@
     padding-bottom: 20px;
 }
 .contactsContainer {
-    width: 80%;
+    width: 50%;
     /*height: 100%;*/
     border: 1px solid;
     margin: 0 auto;
@@ -29,4 +29,11 @@ input {
 }
 textarea {
     height: 50px;
+}
+.submitBtn {
+    padding: 10px 20px;
+    background-color: blueviolet;
+}
+.form input, .form textarea {
+    width: 100%;
 }
