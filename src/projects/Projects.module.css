@@ -15,8 +15,27 @@
     justify-content: flex-start;
 }
 .title {
-    color: crimson;
-    background-color: mediumpurple;
+    margin-bottom: 30px;
+    position: relative;
+}
+.title h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    background-color: blue;
+    width: 70px;
+    height: 1px;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
 }
 .projects {
     border: 1px solid;
