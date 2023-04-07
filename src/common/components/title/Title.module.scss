@@ -6,7 +6,7 @@
     &::before {
         content: "";
         position: absolute;
-        background-color: $primaryColor;
+        background-color: $--primaryColor;
         width: 60px;
         height: 1px;
         bottom: -20px;
@@ -16,7 +16,7 @@
     & h2 {
         font-family: 'Josefin Sans', sans-serif;
         font-weight: 300;
-        color: $textColor;
+        color: $--textColor;
         text-transform: capitalize;
         font-size: 36px;
         line-height: 1.2;

@@ -1,60 +1,63 @@
 @import "../../common/styles/sass/variables";
+@import "../../common/styles/sass/mixins";
 
 .project {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    .projImg {
-        height: 150px;
-        width: 100%;
-        background-image: url("https://avatars.mds.yandex.net/i?id=7af178b378f4cc3a508807ec21f7ed51f1c3b3ac-7946262-images-thumbs&n=13");
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        &::before {
-            position: absolute;
-            content: '';
-            background: black;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            opacity: 0.4;
-        }
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
-        .button {
-            text-decoration: none;
-            background: $primaryColor;
-            padding: 7px 20px 4px;
-            line-height: 1;
-            border-radius: 50%;
-            position: relative;
-            z-index: 1;
-            color: $textColor;
-        }
+  .projImg {
+    height: 150px;
+    width: 100%;
+    background-image: url("https://avatars.mds.yandex.net/i?id=7af178b378f4cc3a508807ec21f7ed51f1c3b3ac-7946262-images-thumbs&n=13");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
     }
-    .projInfo {
-        padding: 25px 20px;
-        background-color: $primaryColor;
-        .projTitle {
-            font-size: 16px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            margin: 0 0 5px;
-            line-height: 1.2;
-            color: $textColor;
-        }
-        .description {
-            font-family: 'Poppins', sans-serif;
-            line-height: 1.2;
-            font-size: 12px;
-            color: $textColor;
-        }
+
+    .button {
+      text-decoration: none;
+      background: $--primaryColor;
+      padding: 7px 20px 4px;
+      line-height: 1;
+      border-radius: 50%;
+      position: relative;
+      z-index: 1;
+      color: $--textColor;
     }
+  }
+
+  .projInfo {
+    padding: 25px 20px;
+    background-color: $--primaryColor;
+
+    .projTitle {
+      @include text("'Josefin Sans', sans-serif", 16px, 1.2);
+
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+    }
+
+    .description {
+      @include text("'Poppins', sans-serif", 14px, 1.2);
+      color: $--textColor;
+    }
+  }
 }
 
 
